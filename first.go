@@ -51,7 +51,7 @@ import "fmt"
 //		fmt.Println(a)
 //	}
 //
-升序排序 封装成方法，之后再调用
+// 升序排序 封装成方法，之后再调用
 func sortInAsc(slice []int) []int {
 	for i := 0; i < len(slice); i++ {
 		for j := i + 1; j < len(slice); j++ {
@@ -82,9 +82,3 @@ func main() {
 //func main() {
 //
 //}
-
-
-
-
-
-
