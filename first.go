@@ -65,7 +65,7 @@ func sortInAsc(slice []int) []int {
 	return slice
 }
 func main() {
-	var sliceA = []int{18, 43, 23, 67, 32, 11, 36, 35, 42}
+	var sliceA = []int{18, 41, 23, 67, 32, 11, 36, 35, 42}
 	a := sortInAsc(sliceA)
 	fmt.Println(a)
 }
